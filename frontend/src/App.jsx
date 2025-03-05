@@ -1,7 +1,7 @@
 import React from 'react';
 import Users from './components/Users';
 // import UserDetail from './components/UserDetail';
-// import CreateUser from './components/CreateUser';
+import CreateUser from './components/CreateUser';
 // import UpdateUser from './components/UpdateUser';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   
 
       {/* Create User */}
-  
+      <CreateUser />
 
       {/* Update User */}
    
