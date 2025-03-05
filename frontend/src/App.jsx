@@ -1,6 +1,6 @@
 import React from 'react';
 import Users from './components/Users';
-// import UserDetail from './components/UserDetail';
+import UserDetail from './components/UserDetail';
 import CreateUser from './components/CreateUser';
 // import UpdateUser from './components/UpdateUser';
 
@@ -13,7 +13,7 @@ function App() {
       <Users />
 
       {/* Display User by ID */}
-  
+      <UserDetail />
 
       {/* Create User */}
       <CreateUser />
